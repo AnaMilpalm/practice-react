@@ -1,3 +1,4 @@
+import Header from "./Header/Header";
 import MainHeading from "./MainHeading/MainHeading";
 import Message from "./Message/Message";
 
@@ -5,6 +6,7 @@ import Message from "./Message/Message";
 const App = () => {
   return (
     <div>
+<Header />
 <MainHeading />
 <Message text="Куплю фарбу" author="Олена" />
 <Message text="Продам телевізор" author="Viktor"/>
