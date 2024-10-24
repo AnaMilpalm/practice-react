@@ -66,3 +66,25 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: teal;
+  align-items: center;
+  color: white;
+  .nav {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    & li {
+      color: #1a1a1a;
+      transition: color 0.4s ease;
+      &:hover {
+        color: orange;
+      }
+    }
+  }
+}
+
+

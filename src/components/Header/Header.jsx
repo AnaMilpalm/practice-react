@@ -1,9 +1,12 @@
+import css from './Header.module.css'
+
 const Header = () => {
     return (
-        <header style={{display: 'flex', background: 'teal', color: 'white', alignItems: 'center'}}>
+        <header className="header">
             <div>Logo</div>
+            <p className={css.title}>Hello</p>
             <nav>
-                <ul style={{display:"flex", listStyle: 'none', gap: '10px' }}>
+                <ul className="nav">
                     <li>Home</li>
                     <li>About</li>
                     <li>Profile</li>

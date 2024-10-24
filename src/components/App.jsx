@@ -1,6 +1,7 @@
 import Header from "./Header/Header";
 import MainHeading from "./MainHeading/MainHeading";
 import Message from "./Message/Message";
+import '../index.css';
 
 
 const App = () => {
