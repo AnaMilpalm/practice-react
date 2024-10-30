@@ -1,0 +1,15 @@
+img {
+    display: block;
+    width: 100%;
+}
+.wrapper {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    max-height: 200px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
