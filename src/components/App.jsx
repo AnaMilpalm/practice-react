@@ -7,6 +7,11 @@ import Profile from "./Profile/Profile";
 import profileData from './../assets/user.json';
 import ClickComponent from "./ClickComponent/ClickComponent";
 import SetIntervalComponent from "./SetIntervalComponent/SetIntervalComponent";
+import Modal, { Button } from "./Modal/Modal";
+import FewStatesComponent from "./FewStatesComponent/FewStatesComponent";
+import ClickLocalStorage, { CommonState } from "./ClickLocalStorage/ClickLocalStorage";
+import PrimaryButton, { ButtonEvt } from "./PrimaryButton/PrimaryButton";
+import CustomButton, { ButtonFewStates, ButtonSeconds, ButtonThird } from "./CustomButton/CustomButton";
 
 
 
@@ -24,6 +29,17 @@ const App = () => {
 <Profile user={profileData} />
 <ClickComponent />
 <SetIntervalComponent />
+<Modal />
+<Button />
+<FewStatesComponent />
+<ClickLocalStorage />
+<PrimaryButton />
+<ButtonEvt/>
+<CustomButton/>
+<ButtonSeconds/>
+<ButtonThird />
+<ButtonFewStates />
+<CommonState />
 </div>
 
   );
