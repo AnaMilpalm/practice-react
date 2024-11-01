@@ -12,6 +12,9 @@ import FewStatesComponent from "./FewStatesComponent/FewStatesComponent";
 import ClickLocalStorage, { CommonState } from "./ClickLocalStorage/ClickLocalStorage";
 import PrimaryButton, { ButtonEvt } from "./PrimaryButton/PrimaryButton";
 import CustomButton, { ButtonFewStates, ButtonSeconds, ButtonThird } from "./CustomButton/CustomButton";
+// import TextInput from "./TextInput/TextInput";
+import Counter from "./Counter/Counter";
+import  ColorPicker  from "./ColorPicker/ColorPicker";
 
 
 
@@ -40,6 +43,9 @@ const App = () => {
 <ButtonThird />
 <ButtonFewStates />
 <CommonState />
+{/* <TextInput value={input} handleInput={handleInput} /> */}
+<Counter />
+<ColorPicker />
 </div>
 
   );

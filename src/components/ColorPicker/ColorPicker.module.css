@@ -1,0 +1,23 @@
+.bgWrapper {
+    padding: 50px;
+    transition: background-color 0.5s linear;
+
+}
+.pallette {
+    
+}
+.list {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    gap: 15px;
+}
+.item {
+    padding: 15px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.item:hover {
+    background-color: rgba(0,0,0, 0.1);
+}
