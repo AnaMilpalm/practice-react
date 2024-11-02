@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "todo": "Do something nice for I care about",
+        "completed": true
+    },
+    {
+        "id": 2,
+        "todo": "Memorize the fifty states and their capitals",
+        "completed": false
+    },
+    {
+        "id": 3,
+        "todo": "Whatch a classic music",
+        "completed": false
+    }
+]

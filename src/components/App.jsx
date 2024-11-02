@@ -15,6 +15,8 @@ import CustomButton, { ButtonFewStates, ButtonSeconds, ButtonThird } from "./Cus
 // import TextInput from "./TextInput/TextInput";
 import Counter from "./Counter/Counter";
 import  ColorPicker  from "./ColorPicker/ColorPicker";
+import TodoList from "./TodoList/TodoList.jsx";
+import { TodoItem } from "./TodoItem/TodoItem.jsx";
 
 
 
@@ -46,6 +48,7 @@ const App = () => {
 {/* <TextInput value={input} handleInput={handleInput} /> */}
 <Counter />
 <ColorPicker />
+<TodoList />
 </div>
 
   );
